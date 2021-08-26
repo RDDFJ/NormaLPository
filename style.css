@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(dark-mountains_2880x2560_li5b2.jpg);
+}
+h1{
+    color: red;
+    margin-top: 50px;
+    text-align: center;
+}
+.text-container{
+    text-align: center;
+    color: brown;
+}
+.countdown-container{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 600px;
+    margin-top: 20px;
+    height: 200px;
+    justify-content: center;
+    border: 1px solid white;
+    background-color: #5934ff;
+}
+.countdown-container div{
+    width: 100px;
+    height: 200px;
+    font-size: 20px
+}
+.big-text{
+    font-size: 50px;
+}
+.days-c, .hours-c, .mins-c, .seconds-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-bottom: 20px;
+}
